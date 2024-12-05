@@ -1,0 +1,6 @@
+services:
+  chromium:
+    image: themonitoringshop/c10e-instruqt-core:latest
+    pull_policy: always
+    container_name: c10e-instruqt-core
+    restart: "always"
